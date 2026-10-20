@@ -1,0 +1,89 @@
+{
+  "model": "3x3 cubie group, exact quarter turns U,R,F and inverses",
+  "exploration_scope": "BFS depth capped; not a full cube diameter computation",
+  "generators": [
+    "U",
+    "R",
+    "F",
+    "U'",
+    "R'",
+    "F'"
+  ],
+  "maximum_depth": 6,
+  "exact_distance_counts": [
+    1,
+    6,
+    27,
+    120,
+    534,
+    2376,
+    10560
+  ],
+  "cumulative_counts": [
+    1,
+    7,
+    34,
+    154,
+    688,
+    3064,
+    13624
+  ],
+  "invariants_passed": true,
+  "inverse_and_order_four_checks_passed": true,
+  "R_U_Rprime_Uprime": {
+    "moved_corners": 4,
+    "moved_edges": 3,
+    "state": [
+      [
+        4,
+        1,
+        3,
+        2,
+        0,
+        5,
+        6,
+        7
+      ],
+      [
+        2,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        1,
+        2,
+        0,
+        4,
+        5,
+        6,
+        7,
+        3,
+        9,
+        10,
+        11
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "legal_configurations": 43252003274489856000,
+  "unrestricted_cubie_arrangements": 519024039293878272000
+}
